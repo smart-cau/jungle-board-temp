@@ -41,6 +41,11 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 .env.local
+# Ignore actual config files
+config/*.yml
+
+# But don't ignore sample config files
+!config/*.sample.yml
 
 # temp directory
 .temp
